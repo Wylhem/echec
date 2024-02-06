@@ -1,3 +1,5 @@
 export abstract class Piece {
-  constructor(private color: string) {}
+  constructor(private color: Color) {}
+
+  abstract getColor(): Color;
 }
