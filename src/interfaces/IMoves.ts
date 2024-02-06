@@ -1,5 +1,5 @@
 import { Tile } from "../dashboard/tile";
 
-interface IMove {
+export interface IMove {
   move(tile: Tile): void;
 }
