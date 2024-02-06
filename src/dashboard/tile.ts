@@ -1,8 +1,8 @@
-class Slot {
+class Tile {
     constructor() {
         this.piece = null;
     }
     piece: any;
 }
 
-export { Slot };
+export { Tile };
